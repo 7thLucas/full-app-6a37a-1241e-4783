@@ -1,64 +1,44 @@
 <style>
 .mode-landscape .sl-split { flex-direction: row; }
 .mode-portrait .sl-split { flex-direction: column; }
-.mode-landscape .sl-left { width: 58%; }
-.mode-landscape .sl-right { width: 42%; }
+.mode-landscape .sl-left { width: 52%; }
+.mode-landscape .sl-right { width: 48%; }
 .mode-portrait .sl-left { flex: 1; }
-.mode-portrait .sl-right { height: 45%; }
+.mode-portrait .sl-right { height: 40%; }
 </style>
 
 <section class="w-full h-full overflow-auto bg-white">
   <div class="sl-split flex h-full">
 
-    <!-- Left: Dark hero panel -->
-    <div class="sl-left flex flex-col justify-between p-12" style="background: linear-gradient(145deg, #0f172a 0%, #1e3a5f 60%, #0f172a 100%);">
-
-      <!-- Top: brand name + payment hint -->
-      <div class="flex items-center justify-between">
-        <div>
-          <div class="text-2xl font-black text-white tracking-wide">CENTRO</div>
-          <div class="text-xs text-orange-400 font-semibold tracking-widest uppercase mt-0.5">Marketplace · Afrique Centrale</div>
-        </div>
-        <span class="text-xs text-slate-500 font-medium tracking-wide">MTN Mobile Money</span>
-      </div>
-
-      <!-- Center: Headline + service chips -->
+    
+    <div class="sl-left flex flex-col justify-between p-12">
       <div>
-        <div class="w-10 h-0.5 bg-orange-500 mb-5"></div>
-        <h1 class="text-4xl font-black leading-snug mb-6">
-          <span class="text-white">Acheter. Vendre.</span><br>
-          <span class="text-white">Travailler. </span><span class="text-orange-500">Habiter.</span>
-        </h1>
-        <p class="text-sm text-slate-400 leading-relaxed max-w-sm mb-6">
-          CENTRO réunit produits, emplois, logements et messagerie dans une seule application — un abonnement, toute l'économie locale d'Afrique centrale.
-        </p>
-        <div class="flex flex-wrap gap-2">
-          <span class="px-3 py-1.5 rounded-full bg-blue-600 text-white text-xs font-bold">🛒 E-commerce</span>
-          <span class="px-3 py-1.5 rounded-full bg-white bg-opacity-10 text-slate-200 text-xs font-semibold">💼 Emploi</span>
-          <span class="px-3 py-1.5 rounded-full bg-white bg-opacity-10 text-slate-200 text-xs font-semibold">🏠 Logement</span>
-          <span class="px-3 py-1.5 rounded-full bg-white bg-opacity-10 text-slate-200 text-xs font-semibold">💬 Messagerie</span>
-        </div>
+        <span class="inline-block px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-widest uppercase"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+          Marketplace .afrique central&nbsp;</font></font></span>
       </div>
 
-      <!-- Bottom: Attribution + price stat -->
+      <div>
+        <h1 class="text-4xl font-black text-slate-900 leading-snug mb-4"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+          Acheter. Vendre.</font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+          Travailler. </font></font><span class="text-orange-500"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Habiter.</font></font></span>
+        </h1>
+        <p class="text-sm text-slate-500 leading-relaxed max-w-xs"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+          Une seule application pour toute l'activité économique quotidienne en Afrique francophone — produits, emplois et logements réunis.
+        </font></font></p>
+      </div>
+
       <div class="flex items-end justify-between">
         <data-attribution />
         <div class="text-right">
-          <div class="text-2xl font-black text-orange-500 leading-none">1 000 <span class="text-base font-semibold text-slate-400">FCFA</span></div>
-          <div class="text-xs text-slate-500 mt-1 tracking-wide">par utilisateur / mois</div>
+          <div class="text-xl font-black text-blue-600"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1 000 FCFA </font></font><span class="text-sm font-semibold text-slate-400"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">/mois</font></font></span></div>
+          <div class="text-xs text-slate-400 tracking-wide"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">par utilisateur</font></font></div>
         </div>
       </div>
     </div>
 
-    <!-- Right: Full-bleed image with left fade -->
-    <div class="sl-right relative overflow-hidden">
-      <img
-        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=Modern%20Central%20African%20city%20young%20professionals%20using%20smartphones%20in%20a%20dynamic%20marketplace%2C%20cinematic%20night%20scene%20with%20warm%20orange%20street%20lights%2C%20vibrant%20urban%20energy%2C%20high%20contrast%20photography%2C%20dark%20moody%20tones%20with%20orange%20and%20blue%20accents"
-        alt="Marketplace moderne Afrique centrale"
-        class="w-full h-full object-cover"
-      />
-      <!-- Blend left edge into dark panel -->
-      <div class="absolute inset-0" style="background: linear-gradient(to right, #0f172a 0%, transparent 35%);"></div>
+    
+    <div class="sl-right overflow-hidden">
+      <img src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=Vibrant%20West%20African%20market%20scene%20people%20trading%20goods%20on%20smartphones%2C%20colorful%20fabric%20stalls%2C%20warm%20golden%20sunlight%2C%20community%20energy%2C%20premium%20editorial%20photography%2C%20deep%20blue%20and%20orange%20color%20palette" alt="Marketplace en Afrique francophone" class="w-full h-full object-cover">
     </div>
 
   </div>
