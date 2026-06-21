@@ -42,6 +42,6 @@ French-speaking Central Africa (Cameroun and neighboring countries). Pricing den
 
 ## Strategic Principles
 1. **Local-first**: Proximity-based discovery for jobs and housing
-2. **Unified experience**: One account and one subscription across all three verticals
+2. **Unified experience**: One account and one subscription across all five services
 3. **Scalable SaaS model**: Predictable monthly recurring revenue per user
 4. **Regional ambition**: Designed to scale across the entire francophone African market
