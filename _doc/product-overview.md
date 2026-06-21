@@ -24,6 +24,7 @@ A single unified application where users can:
 
 ## Business Model
 - Monthly subscription: **1,000 FCFA / user / month** (hosting fee, billed at end of each month)
+- Payment collection: **MTN Mobile Money** (operator's personal MTN account)
 - Revenue projections by subscriber count:
   - 10,000 users → 10M FCFA/month → 120M FCFA/year
   - 50,000 users → 50M FCFA/month → 600M FCFA/year
