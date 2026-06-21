@@ -34,7 +34,7 @@ A single unified application where users can:
   - Long-term target: 50M users → 50B FCFA/month
 
 ## Positioning
-The all-in-one economic platform for francophone Central Africa — one account, one monthly subscription, five integrated services (e-commerce, jobs, housing, messaging, phone display). Differentiates from per-vertical alternatives through convenience, cost simplicity, and local relevance.
+**CENTRO** — the all-in-one economic platform for francophone Central Africa — one account, one monthly subscription, five integrated services (e-commerce, jobs, housing, messaging, phone display). Differentiates from per-vertical alternatives through convenience, cost simplicity, and local relevance.
 
 ## Brand Tone
 Trustworthy, community-rooted, accessible, economically empowering.
