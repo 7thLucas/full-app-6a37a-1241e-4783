@@ -1,0 +1,76 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header -->
+    <div class="mb-4">
+      <p class="text-xs font-bold tracking-widest uppercase text-blue-600 mb-1">Fonctionnalités</p>
+      <h2 class="text-3xl font-black text-slate-900">Ce que chaque utilisateur peut faire</h2>
+    </div>
+
+    <!-- Persona chips -->
+    <div class="flex flex-wrap gap-2 mb-5">
+      <span class="px-3 py-1.5 rounded-full bg-blue-600 text-white text-xs font-bold">Vendeur</span>
+      <span class="px-3 py-1.5 rounded-full bg-slate-100 text-slate-500 text-xs font-semibold">Acheteur</span>
+      <span class="px-3 py-1.5 rounded-full bg-slate-100 text-slate-500 text-xs font-semibold">Chercheur d'emploi</span>
+      <span class="px-3 py-1.5 rounded-full bg-slate-100 text-slate-500 text-xs font-semibold">Locataire · Acquéreur</span>
+    </div>
+
+    <!-- Feature cards -->
+    <div class="sl-grid grid flex-1 gap-4 min-h-0">
+
+      <div class="bg-blue-50 rounded-2xl p-5 flex flex-col">
+        <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center mb-3 flex-shrink-0">
+          <span class="text-white text-xs font-black">📣</span>
+        </div>
+        <h4 class="font-black text-slate-900 text-sm mb-1">Publiez vos annonces</h4>
+        <p class="text-xs text-slate-500 leading-relaxed">Créez et gérez vos listings produits avec photos et description en quelques secondes.</p>
+      </div>
+
+      <div class="bg-blue-50 rounded-2xl p-5 flex flex-col">
+        <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center mb-3 flex-shrink-0">
+          <span class="text-white text-xs font-black">📊</span>
+        </div>
+        <h4 class="font-black text-slate-900 text-sm mb-1">Suivez vos ventes</h4>
+        <p class="text-xs text-slate-500 leading-relaxed">Tableau de bord en temps réel pour vos commandes, revenus et inventaire disponible.</p>
+      </div>
+
+      <div class="bg-blue-50 rounded-2xl p-5 flex flex-col">
+        <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center mb-3 flex-shrink-0">
+          <span class="text-white text-xs font-black">🌍</span>
+        </div>
+        <h4 class="font-black text-slate-900 text-sm mb-1">Visibilité régionale</h4>
+        <p class="text-xs text-slate-500 leading-relaxed">Atteignez des acheteurs à travers toute la région francophone, pas seulement votre quartier.</p>
+      </div>
+
+      <div class="bg-orange-50 rounded-2xl p-5 flex flex-col">
+        <div class="w-8 h-8 rounded-lg bg-orange-500 flex items-center justify-center mb-3 flex-shrink-0">
+          <span class="text-white text-xs font-black">💳</span>
+        </div>
+        <h4 class="font-black text-slate-900 text-sm mb-1">Paiements sécurisés</h4>
+        <p class="text-xs text-slate-500 leading-relaxed">Recevez vos paiements de manière fiable directement via la plateforme.</p>
+      </div>
+
+      <div class="bg-orange-50 rounded-2xl p-5 flex flex-col">
+        <div class="w-8 h-8 rounded-lg bg-orange-500 flex items-center justify-center mb-3 flex-shrink-0">
+          <span class="text-white text-xs font-black">🔔</span>
+        </div>
+        <h4 class="font-black text-slate-900 text-sm mb-1">Alertes acheteurs</h4>
+        <p class="text-xs text-slate-500 leading-relaxed">Notification instantanée à chaque nouvel intérêt ou offre reçue d'un acheteur.</p>
+      </div>
+
+      <div class="bg-orange-50 rounded-2xl p-5 flex flex-col">
+        <div class="w-8 h-8 rounded-lg bg-orange-500 flex items-center justify-center mb-3 flex-shrink-0">
+          <span class="text-white text-xs font-black">🏪</span>
+        </div>
+        <h4 class="font-black text-slate-900 text-sm mb-1">Boutique personnelle</h4>
+        <p class="text-xs text-slate-500 leading-relaxed">Votre vitrine intégrée dans la marketplace, visible par tous les utilisateurs de la plateforme.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
