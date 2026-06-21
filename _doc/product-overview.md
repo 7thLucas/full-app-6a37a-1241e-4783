@@ -1,0 +1,1 @@
+j'aimerais creer une application d'e-commerce qui vas permetre a plus de 50 milions d'utilisateurs de vendre, d'acheter des produits ,de trouver du travail a proximite et du logement . A la fin de chaque mois ils vons payer l'hebergement qui est de 1000fcfa.
