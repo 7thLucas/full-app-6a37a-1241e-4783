@@ -1,0 +1,73 @@
+<style>
+.mode-landscape .sl-cols { flex-direction: row; }
+.mode-portrait .sl-cols { flex-direction: column; }
+.mode-landscape .sl-prob { width: 42%; }
+.mode-landscape .sl-sol { flex: 1; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header -->
+    <div class="mb-6">
+      <p class="text-xs font-bold tracking-widest uppercase text-blue-600 mb-1">Fondation</p>
+      <h2 class="text-3xl font-black text-slate-900">Pourquoi cette application existe</h2>
+    </div>
+
+    <!-- Two-column content -->
+    <div class="sl-cols flex flex-1 gap-6 min-h-0">
+
+      <!-- Problem -->
+      <div class="sl-prob bg-slate-900 rounded-2xl p-7 flex flex-col">
+        <span class="text-xs font-bold tracking-widest uppercase text-orange-400 mb-4 block">Le Problème</span>
+        <h3 class="text-base font-black text-white mb-3">Besoins essentiels, plateformes fragmentées</h3>
+        <p class="text-xs text-slate-300 leading-relaxed mb-5">
+          En Afrique francophone, acheter un produit, chercher un emploi ou trouver un logement impose de jongler entre plusieurs applications — chacune avec son compte, ses frais et ses frictions.
+        </p>
+        <div class="space-y-3 mt-auto">
+          <div class="flex gap-2 items-start">
+            <span class="w-1.5 h-1.5 rounded-full bg-orange-400 mt-1.5 flex-shrink-0"></span>
+            <span class="text-xs text-slate-300">Temps perdu à naviguer entre plateformes disparates</span>
+          </div>
+          <div class="flex gap-2 items-start">
+            <span class="w-1.5 h-1.5 rounded-full bg-orange-400 mt-1.5 flex-shrink-0"></span>
+            <span class="text-xs text-slate-300">Opportunités économiques manquées faute de visibilité</span>
+          </div>
+          <div class="flex gap-2 items-start">
+            <span class="w-1.5 h-1.5 rounded-full bg-orange-400 mt-1.5 flex-shrink-0"></span>
+            <span class="text-xs text-slate-300">Coûts et abonnements multiples pour des services séparés</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Solution -->
+      <div class="sl-sol flex flex-col">
+        <div class="flex-1 bg-blue-600 rounded-2xl p-7 flex flex-col">
+          <span class="text-xs font-bold tracking-widest uppercase text-blue-200 mb-4 block">La Solution</span>
+          <h3 class="text-base font-black text-white mb-3">Un seul outil. Trois services essentiels.</h3>
+          <p class="text-xs text-blue-100 leading-relaxed mb-5">
+            Une marketplace unifiée réunissant e-commerce, emploi de proximité et logement — sous un seul compte, un abonnement unique de 1 000 FCFA/mois facturé en fin de mois.
+          </p>
+          <div class="grid grid-cols-3 gap-3 mt-auto">
+            <div class="bg-white bg-opacity-15 rounded-xl p-3 text-center">
+              <div class="text-xl mb-1">🛒</div>
+              <div class="text-xs font-bold text-white">E-commerce</div>
+              <div class="text-xs text-blue-200 mt-1">Acheter &amp; Vendre</div>
+            </div>
+            <div class="bg-white bg-opacity-15 rounded-xl p-3 text-center">
+              <div class="text-xl mb-1">💼</div>
+              <div class="text-xs font-bold text-white">Emploi</div>
+              <div class="text-xs text-blue-200 mt-1">Travail à proximité</div>
+            </div>
+            <div class="bg-white bg-opacity-15 rounded-xl p-3 text-center">
+              <div class="text-xl mb-1">🏠</div>
+              <div class="text-xs font-bold text-white">Logement</div>
+              <div class="text-xs text-blue-200 mt-1">Location &amp; Vente</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
