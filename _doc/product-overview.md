@@ -1,24 +1,26 @@
 # Product Overview
 
 ## Product
-A multi-vertical marketplace platform for French-speaking West Africa, combining three essential services in a single application: e-commerce (buy/sell products), proximity-based job listings, and housing/real estate search.
+A multi-vertical marketplace platform for French-speaking Central Africa, combining five essential services in a single application: e-commerce (buy/sell products), proximity-based job listings, housing/real estate search, in-app messaging between users, and phone number display on listings.
 
 ## Target Users
 - Buyers and sellers of everyday products
 - Job seekers looking for work nearby (proximity-based)
 - Employers and recruiters posting local job offers
 - Renters, landlords, property buyers, and real estate agents
-- General population of francophone sub-Saharan Africa
+- General population of French-speaking Central Africa (Cameroun and neighboring countries)
 - Aspirational scale: 50 million+ registered users across the region
 
 ## Core Problem
-Users in francophone Africa must navigate multiple fragmented platforms to handle three fundamental daily economic needs — buying/selling goods, finding local work, and securing housing — creating friction, wasted time, and missed economic opportunities.
+Users in francophone Central Africa must navigate multiple fragmented platforms to handle fundamental daily economic needs — buying/selling goods, finding local work, securing housing — and still rely on WhatsApp or phone calls to negotiate and connect, creating friction, wasted time, and missed economic opportunities.
 
 ## Solution
 A single unified application where users can:
 1. **E-commerce** — post product listings, browse, buy and sell goods
 2. **Jobs nearby** — discover proximity-based job offers and apply directly
 3. **Housing** — browse rental and for-sale properties filtered by location
+4. **Messaging** — communicate directly between users within the app (replaces WhatsApp for negotiations)
+5. **Phone display** — show contact phone numbers directly on listings for direct reach
 
 ## Business Model
 - Monthly subscription: **1,000 FCFA / user / month** (hosting fee, billed at end of each month)
