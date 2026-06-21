@@ -1,6 +1,8 @@
 # Product Overview
 
 ## Product
+**Name: CENTRO**
+
 A multi-vertical marketplace platform for French-speaking Central Africa, combining five essential services in a single application: e-commerce (buy/sell products), proximity-based job listings, housing/real estate search, in-app messaging between users, and phone number display on listings.
 
 ## Target Users
