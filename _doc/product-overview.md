@@ -38,7 +38,7 @@ The all-in-one economic platform for francophone Africa — one account, one mon
 Trustworthy, community-rooted, accessible, economically empowering.
 
 ## Region & Currency
-French-speaking West Africa. Pricing denominated in FCFA (CFA franc).
+French-speaking Central Africa (Cameroun and neighboring countries). Pricing denominated in FCFA (XAF — Central African CFA franc). MTN Mobile Money is the primary payment network in the region.
 
 ## Strategic Principles
 1. **Local-first**: Proximity-based discovery for jobs and housing
